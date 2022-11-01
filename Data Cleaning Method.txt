@@ -10,6 +10,7 @@
 		day
 	- Reorder the columns
 	- Rename the following columns date, state, # Killed, # Injured, Incident ID
+	- sorted the dataframe in acending order by year
 
 * Gun Data, Codebook, and OLS Regression Outputs.csv
 	- Convert the columns to a list
@@ -76,6 +77,9 @@
            'participant_status','participant_type','sources',
            'state_house_district','state_senate_district','month','day','latitude','longitude'
 	- Use the groupby function to group the gun violence by year and state
+	- converted the data type of the year column from object to numeric
 	
 * Merge the following dataframe
-	- merge gun laws with yearly incidents on the year and state columns
+	- merge cleaned gun violence with accidental deaths to extend the dataset from 2013 to 2022
+	- merge the combined gun violence with gun_laws dataframe
+	- export all of the files to csv
