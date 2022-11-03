@@ -1,0 +1,85 @@
+* accidental deaths 2018-2022.csv > 
+	- Count the columns values in the dataframe
+	- Inspect the Incident Date column and split the column into three columns (month, day, date)
+	- Confirm the values in the date columns are the years of the incident
+	- Drop the following columns
+		Operations
+		Address
+		Incident Date
+		month
+		day
+	- Reorder the columns
+	- Rename the following columns date, state, # Killed, # Injured, Incident ID
+	- sorted the dataframe in acending order by year
+
+* Gun Data, Codebook, and OLS Regression Outputs.csv
+	- Convert the columns to a list
+	- Match the column names to the original xlsx file
+	- Drop the following columns
+		AllMrdr
+		AllSuic
+		AllVlntCrm
+		RapeRvsd
+		RapeLgcy
+		Robbery
+		AggvtdAsslt
+		MnMrdrWmn
+		Gini-Indx
+		Pov.%
+		PrcntBlck
+		PrcntHispORLat
+		PrtyRepub.
+		PrtyDemoc.
+		PrcntConsrv
+		PrcntEvang.
+		PrcntPopVet
+		PrcntPopUrbn
+		PrcntHSchl
+		PrcntBchlr
+		UnHyphAm.
+		PrcntUnHyphAm.
+		B5E
+		B5A
+		B5C
+		B5N
+		B5O
+		IATScore
+		HnrCultr
+		StateSqMi
+		CensS
+		CensNE
+		CensMW
+		CensW
+		AlchlPerCap
+		RdntHntLic
+		RdntHntLic100k
+		CntryV.Rck
+	- Stored Columns to review in our next meeting in a new DataFrame
+	- Determine that this dataset does not have enough data between our desired time frame (2000-2022)
+
+* gun law provisions by year (through 2020) and state.csv
+	- Count the non-null values
+	- Inspect the column names in the DataFrame
+	- Check the data types of the DataFrame
+	- Filter the year column to display 2000 and greater
+		
+* gun violence
+	- Inspect all columns
+	- Split the date column into three columns (date, month, date) and rename the date column to year
+	- Create a new dataframe with longitude and latitude 
+	- Drop the following columns
+		'city_or_county','address','incident_url',
+           'source_url','incident_url_fields_missing','congressional_district',
+           'gun_stolen','gun_type','incident_characteristics',
+           'location_description','n_guns_involved',
+           'notes','participant_age','participant_age_group',
+           'participant_gender','participant_name','participant_relationship',
+           'participant_status','participant_type','sources',
+           'state_house_district','state_senate_district','month','day','latitude','longitude'
+	- Use the groupby function to group the gun violence by year and state
+	- converted the data type of the year column from object to numeric
+	
+* Merge the following dataframe
+	- merge cleaned gun violence with accidental deaths to extend the dataset from 2013 to 2022
+	- merge the combined gun violence with gun_laws dataframe
+	- export all of the files to csv
