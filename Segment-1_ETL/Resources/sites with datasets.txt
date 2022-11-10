@@ -1,8 +1,0 @@
-
-API for global gun policies, gun numbers, deaths, country profile, privately owned firearms
-https://www.gunpolicy.org/api
-
-
-crime APIs
-https://rapidapi.com/collection/crime
-
