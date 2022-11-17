@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gun Laws and Violence</title>
+   <!-- Leaflet CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+   integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+   crossorigin=""/>
+   <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Gun Violence and State Laws</h1>
+        <p>Across the United States there are many laws for gun reform. Below you will find information on gun laws and violence for 2016.
+           Our analysis set out to make this information accessable and to discover which of those laws does the most to reduce gun violence.</p>
+           <p>Link info here</p>
+           <p>2016 data was chosen due to the comprehensive research that has been published for that year</p>
+      </div>
+    </div>
+          <div id="facts" class="panel-body"></div>
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="well">
+          <h4><b>State</b></h4>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h5 class="panel-title">State Info</h5>
+          </div>
+          <div id="state-data" class="panel-box"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4">
+          <div id="myDiv"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5 col-sm-2">
+          <div id="gauge"></div>
+      </div>
+    </div>
+      <div class="col-md-9">
+        <table class="table table-striped bg-dark">
+          <thead>
+            <tr>
+              <th>laws</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      </div>       
+    </div>
+    <div class="row">
+      <div class="col-m-5 col-m-8">
+        <div id="map"></div>
+    </div>
+  </div>
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/config.js"></script>
+  <script src="static/test.js"></script>
+  
+
+</body>
+
+</html>
