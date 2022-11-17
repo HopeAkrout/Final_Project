@@ -1,0 +1,196 @@
+{
+    "state":["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"],  
+    "Abv": ["AK", "AL", "AR", "AS", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "GU", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD", "ME", "MI", "MN", "MO", "MP", "MS", "MT", "NC", "ND", "NE", "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UM", "UT", "VA", "VI", "VT", "WA", "WI", "WV", "WY"
+    ],
+    "metadata":[
+    {"state":"Alabama","year": 2016,"Pop": 4863300,"HouseOwnGuns":69.81,"NumOfPoliceOfficers":8663.666667,"GunRnkCATO":9,"n_killed":21.5, "laws":10, "massShoot":15, "massKill":16, "massInjured":53, "lat":32.377716, "lon":-86.300568},
+    
+    {"state":"Alaska","year":2016,"Pop":741894,"HouseOwnGuns":58.55,"NumOfPoliceOfficers":1285.0,"GunRnkCATO":4,"n_killed":23.3, "laws":3, "massShoot":0, "lat":61.370716, "lon":-152.404419}, 
+    
+    {"state":"Arizona","year":2016,"Pop":6931071,"HouseOwnGuns":59.38,"NumOfPoliceOfficers":12475.0,"GunRnkCATO":3,"n_killed":15.2, "laws":8, "massShoot":4, "massKill":12, "massInjured":15, "lat":33.72975, "lon":-111.431221},
+    
+    {"state":"Arkansas","year":2016,"Pop":2988248,"HouseOwnGuns":59.67,"NumOfPoliceOfficers":5890.0,"GunRnkCATO":32,"n_killed":17.8, "laws":11, "massShoot":3, "massKill":2, "massInjured":12, "lat":34.969704, "lon":-92.373123},
+    
+    {"state":"California","year":2016,"Pop":39250017,"HouseOwnGuns":37.11,"NumOfPoliceOfficers":77168.0,"GunRnkCATO":49,"n_killed":7.9, "laws":104, "massShoot":46, "massKill":34, "massInjured":194, "lat":36.116203
+    , "lon":-119.681564
+},
+    
+    {"state":"Colorado","year":2016,"Pop":5540545,"HouseOwnGuns":52.47,"NumOfPoliceOfficers":11431.33333,"GunRnkCATO":13,"n_killed":14.3, "laws":30, "massShoot":4, "massKill":5, "massInjured":11, "lat":39.059811
+    , "lon":-105.311104
+},
+    
+    {"state":"Connecticut","year":2016,"Pop":3576452,"HouseOwnGuns":27.75,"NumOfPoliceOfficers":8356.333333,"GunRnkCATO":43,"n_killed":4.6, "laws":88, "massShoot":6, "massKill":2, "massInjured":34, "lat":41.597782
+    , "lon":-72.755371
+},
+    
+    {"state":"Delaware","year":2016,"Pop":952065,"HouseOwnGuns":54.64,"NumOfPoliceOfficers":2257.333333,"GunRnkCATO":41,"n_killed":11, "laws":38, "massShoot":2, "massKill":1, "massInjured":8, "lat":39.318523
+    , "lon":-75.507141
+},
+    
+    {"state":"Florida","year":2016,"Pop":20612439,"HouseOwnGuns":53.18,"NumOfPoliceOfficers":38229.0,"GunRnkCATO":38,"n_killed":12.6, "laws":21, "massShoot":30, "massKill":81, "massInjured":186, "lat":27.766279
+    , "lon":-81.686783
+},
+    
+    {"state":"Georgia","year":2016,"Pop":10310371,"HouseOwnGuns":61.81,"NumOfPoliceOfficers":20356.33333,"GunRnkCATO":7,"n_killed":15, "laws":6, "massShoot":17, "massKill":24, "massInjured":56, "lat":33.040619
+    , "lon":-83.643074
+},
+    
+    {"state":"Hawaii","year":2016,"Pop":1428557,"HouseOwnGuns":21.26,"NumOfPoliceOfficers":2943.666667,"GunRnkCATO":50,"n_killed":4.5, "laws":79, "massShoot":0, "lat":21.094318
+    , "lon":-157.498337
+},
+    
+    {"state":"Idaho","year":2016,"Pop":1683140,"HouseOwnGuns":61.25,"NumOfPoliceOfficers":2732.666667,"GunRnkCATO":18,"n_killed":14.6, "laws":2, "massShoot":0, "lat":44.240459
+    , "lon":-114.478828
+},
+    
+    {"state":"Illinois","year":2016,"Pop":12801539,"HouseOwnGuns":35.75,"NumOfPoliceOfficers":15691.0,"GunRnkCATO":45,"n_killed":11.7, "laws":65, "massShoot":42, "massKill":32, "massInjured":158, "lat":40.349457
+    , "lon":-88.986137
+},
+    
+    {"state":"Indiana","year":2016,"Pop":6633053,"HouseOwnGuns":57.15,"NumOfPoliceOfficers":7995.333333,"GunRnkCATO":17,"n_killed":15, "laws":12, "massShoot":8, "massKill":8, "massInjured":25, "lat":39.849426
+    , "lon":-86.258278
+},
+    
+    {"state":"Iowa","year":2016,"Pop":3134693,"HouseOwnGuns":50.52,"NumOfPoliceOfficers":5073.666667,"GunRnkCATO":40,"n_killed":9.2, "laws":25, "massShoot":0, "lat":42.011539
+    , "lon":-93.210526
+},
+    
+    {"state":"Kansas","year":2016,"Pop":2907289,"HouseOwnGuns":50.0,"NumOfPoliceOfficers":6280.666667,"GunRnkCATO":15,"n_killed":13.4, "laws":4, "massShoot":5, "massKill":10, "massInjured":26, "lat":38.5266
+    , "lon":-96.726486
+},
+    
+    {"state":"Kentucky","year":2016,"Pop":4436974,"HouseOwnGuns":65.49,"NumOfPoliceOfficers":6838.0,"GunRnkCATO":8,"n_killed":17.5, "laws":7, "massShoot":2, "massKill":4, "massInjured":6, "lat":37.66814
+    , "lon":-84.670067
+},
+    
+    {"state":"Louisiana","year":2016,"Pop":4681666,"HouseOwnGuns":65.01,"NumOfPoliceOfficers":9127.666667,"GunRnkCATO":37,"n_killed":21.3, "laws":12, "massShoot":14, "massKill":16, "massInjured":57, "lat":31.169546
+    , "lon":-91.867805
+},
+    
+    {"state":"Maine","year":2016,"Pop":1331479,"HouseOwnGuns":49.56,"NumOfPoliceOfficers":2269.333333,"GunRnkCATO":16,"n_killed":8.3, "laws":11, "massShoot":0, "lat":44.693947
+    , "lon":-69.381927
+},
+    
+    {"state":"Maryland","year":2016,"Pop":6016447,"HouseOwnGuns":42.81,"NumOfPoliceOfficers":16861.33333,"GunRnkCATO":44,"n_killed":11.9, "laws":64, "massShoot":11, "massKill":12, "massInjured":47, "lat":39.063946
+    , "lon":-76.802101
+},
+    
+    {"state":"Massachusetts","year":2016,"Pop":6811779,"HouseOwnGuns":22.25,"NumOfPoliceOfficers":16656.66667,"GunRnkCATO":47,"n_killed":3.4, "laws":101, "massShoot":3, "massKill":2, "massInjured":13, "lat":42.230171
+    , "lon":-71.530106
+},
+    
+    {"state":"Michigan","year":2016,"Pop":9928300,"HouseOwnGuns":52.55,"NumOfPoliceOfficers":16977.66667,"GunRnkCATO":36,"n_killed":12.3, "laws":21, "massShoot":11, "massKill":15, "massInjured":43, "lat":43.326618
+    , "lon":-84.536095
+},
+    
+    {"state":"Minnesota","year":2016,"Pop":5519952,"HouseOwnGuns":44.52,"NumOfPoliceOfficers":8944.333333,"GunRnkCATO":39,"n_killed":7.6, "laws":41, "massShoot":5, "massKill":1, "massInjured":24, "lat":45.694454
+    , "lon":-93.900192
+},
+    
+    {"state":"Mississippi","year":2016,"Pop":2988726,"HouseOwnGuns":70.02,"NumOfPoliceOfficers":2614.0,"GunRnkCATO":24,"n_killed":19.9, "laws":2, "massShoot":6, "massKill":8, "massInjured":21, "lat":32.741646
+    , "lon":-89.678696
+},
+    
+    {"state":"Missouri","year":2016,"Pop":6093000,"HouseOwnGuns":57.37,"NumOfPoliceOfficers":14401.66667,"GunRnkCATO":29,"n_killed":19, "laws":7, "massShoot":10, "massKill":10, "massInjured":36, "lat":38.456085
+    , "lon":-92.288368
+},
+    
+    {"state":"Montana","year":2016,"Pop":1042520,"HouseOwnGuns":60.68,"NumOfPoliceOfficers":1657.333333,"GunRnkCATO":23,"n_killed":18.9, "laws":4, "massShoot":0, "lat":46.921925
+    , "lon":-110.454353
+},
+    
+    {"state":"Nebraska","year":2016,"Pop":1907116,"HouseOwnGuns":47.13,"NumOfPoliceOfficers":3621.0,"GunRnkCATO":34,"n_killed":9.1, "laws":22, "massShoot":0, "lat":41.12537
+    , "lon":-98.268082
+},
+    
+    {"state":"Nevada","year":2016,"Pop":2940058,"HouseOwnGuns":51.38,"NumOfPoliceOfficers":5719.666667,"GunRnkCATO":22,"n_killed":16.8, "laws":15, "massShoot":3, "massKill":6, "massInjured":7, "lat":38.313515
+    , "lon":-117.055374
+},
+    
+    {"state":"New Hampshire","year":2016,"Pop":1334795,"HouseOwnGuns":50.38,"NumOfPoliceOfficers":2609.0,"GunRnkCATO":5,"n_killed":9.3, "laws":10, "massShoot":0, "lat":43.452492
+    , "lon":-71.563896
+},
+    
+    {"state":"New Jersey","year":2016,"Pop":8944469,"HouseOwnGuns":25.65,"NumOfPoliceOfficers":28133.33333,"GunRnkCATO":46,"n_killed":5.5, "laws":67, "massShoot":9, "massKill":4, "massInjured":41, "lat":40.298904
+    , "lon":-74.521011
+},
+    
+    {"state":"New Mexico","year":2016,"Pop":2081015,"HouseOwnGuns":51.61,"NumOfPoliceOfficers":1557.0,"GunRnkCATO":28,"n_killed":18.1, "laws":10, "massShoot":4, "massKill":11, "massInjured":7, "lat":34.840515
+    , "lon":-106.248482
+},
+    
+    {"state":"New York","year":2016,"Pop":19745289,"HouseOwnGuns":29.18,"NumOfPoliceOfficers":59239.66667,"GunRnkCATO":42,"n_killed":4.4, "laws":74, "massShoot":15, "massKill":5, "massInjured":69, "lat":42.165726
+    , "lon":-74.948051
+},
+    
+    {"state":"North Carolina","year":2016,"Pop":10146788,"HouseOwnGuns":57.43,"NumOfPoliceOfficers":23671.0,"GunRnkCATO":33,"n_killed":13.7, "laws":30, "massShoot":9, "massKill":6, "massInjured":35, "lat":35.630066
+    , "lon":-79.806419
+},
+    
+    {"state":"North Dakota","year":2016,"Pop":757952,"HouseOwnGuns":53.6,"NumOfPoliceOfficers":1587.333333,"GunRnkCATO":12,"n_killed":11.9, "laws":14, "massShoot":0, "lat":47.528912
+    , "lon":-99.784012
+},
+    
+    {"state":"Ohio","year":2016,"Pop":11614373,"HouseOwnGuns":54.22,"NumOfPoliceOfficers":12006.33333,"GunRnkCATO":30,"n_killed":12.9, "laws":16, "massShoot":11, "massKill":15, "massInjured":39, "lat":40.388783
+    , "lon":-82.764915
+},
+    
+    {"state":"Oklahoma","year":2016,"Pop":3923561,"HouseOwnGuns":62.91,"NumOfPoliceOfficers":7418.333333,"GunRnkCATO":27,"n_killed":19.6, "laws":9, "massShoot":1, "massKill":1, "massInjured":5, "lat":35.565342
+    , "lon":-96.928917
+},
+    
+    {"state":"Oregon","year":2016,"Pop":4093465,"HouseOwnGuns":53.61,"NumOfPoliceOfficers":6284.333333,"GunRnkCATO":26,"n_killed":11.9, "laws":35, "massShoot":2, "massKill":3, "massInjured":5, "lat":44.572021
+    , "lon":-122.070938
+},
+    
+    {"state":"Pennsylvania","year":2016,"Pop":12784227,"HouseOwnGuns":49.51,"NumOfPoliceOfficers":25138.0,"GunRnkCATO":20,"n_killed":12, "laws":37, "massShoot":10, "massKill":16, "massInjured":32, "lat":40.590752
+    , "lon":-77.209755
+},
+    
+    {"state":"Rhode Island","year":2016,"Pop":1056426,"HouseOwnGuns":27.75,"NumOfPoliceOfficers":2457.333333,"GunRnkCATO":48,"n_killed":4.1, "laws":42, "massShoot":0, "lat":41.680893
+    , "lon":-71.51178
+},
+    
+    {"state":"South Carolina","year":2016,"Pop":4961119,"HouseOwnGuns":64.39,"NumOfPoliceOfficers":10847.66667,"GunRnkCATO":25,"n_killed":17.7, "laws":12, "massShoot":5, "massKill":4, "massInjured":17, "lat":33.856892
+    , "lon":-80.945007
+},
+    
+    {"state":"South Dakota","year":2016,"Pop":865454,"HouseOwnGuns":51.57,"NumOfPoliceOfficers":1566.333333,"GunRnkCATO":6,"n_killed":13.4, "laws":5, "massShoot":0, "lat":44.299782
+    , "lon":-99.438828
+},
+    
+    {"state":"Tennessee","year":2016,"Pop":6651194,"HouseOwnGuns":60.78,"NumOfPoliceOfficers":16660.66667,"GunRnkCATO":10,"n_killed":17.1, "laws":22, "massShoot":12, "massKill":4, "massInjured":54, "lat":35.747845
+    , "lon":-86.692345
+},
+    
+    {"state":"Texas","year":2016,"Pop":27862596,"HouseOwnGuns":57.83,"NumOfPoliceOfficers":43340.66667,"GunRnkCATO":31,"n_killed":12.1, "laws":18, "massShoot":31, "massKill":42, "massInjured":115, "lat":31.054487
+    , "lon":-97.563461
+},
+    
+    {"state":"Utah","year":2016,"Pop":3051217,"HouseOwnGuns":49.85,"NumOfPoliceOfficers":4326.666667,"GunRnkCATO":21,"n_killed":12.9, "laws":11, "massShoot":0, "lat":40.150032
+    , "lon":-111.862434
+},
+    
+    {"state":"Vermont","year":2016,"Pop":624594,"HouseOwnGuns":58.5,"NumOfPoliceOfficers":1167.0,"GunRnkCATO":1,"n_killed":11.1, "laws":6, "massShoot":0, "lat":44.045876
+    , "lon":-72.710686
+},
+    
+    {"state":"Virginia","year":2016,"Pop":8411808,"HouseOwnGuns":57.58,"NumOfPoliceOfficers":18794.33333,"GunRnkCATO":11,"n_killed":12.1, "laws":13, "massShoot":11, "massKill":14, "massInjured":41, "lat":37.769337
+    , "lon":-78.169968
+},
+    
+    {"state":"Washington","year":2016,"Pop":7288000,"HouseOwnGuns":45.15,"NumOfPoliceOfficers":10331.0,"GunRnkCATO":19,"n_killed":9, "laws":43, "massShoot":8, "massKill":21, "massInjured":16, "lat":47.400902
+    , "lon":-121.490494
+},
+    
+    {"state":"West Virginia","year":2016,"Pop":1831102,"HouseOwnGuns":65.76,"NumOfPoliceOfficers":3670.0,"GunRnkCATO":14,"n_killed":17.5, "laws":18, "massShoot":1, "massKill":1, "massInjured":3, "lat":38.491226
+    , "lon":-80.954453
+},
+    
+    {"state":"Wisconsin","year":2016,"Pop":5778708,"HouseOwnGuns":52.5,"NumOfPoliceOfficers":12684.0,"GunRnkCATO":35,"n_killed":11.4, "laws":23, "massShoot":2, "massKill":3, "massInjured":5, "lat":44.268543
+    , "lon":-89.616508
+},
+    
+    {"state":"Wyoming","year":2016,"Pop":585501,"HouseOwnGuns":60.43,"NumOfPoliceOfficers":1407.0,"GunRnkCATO":2,"n_killed":17.4, "laws":8, "massShoot":0, "lat":42.755966
+    , "lon":-107.30249
+    }]}
