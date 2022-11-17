@@ -206,7 +206,6 @@ d3.json("./merged_data_violence_copy.json").then((data) => {
             },
         }
     }];
-    var accessToken = API_KEY
     // Create map layout
     var layout = {
         mapbox: {center: {lon: 60, lat: 30}, style: "outdoors", zoom: 2},
@@ -230,8 +229,6 @@ d3.json("./merged_data_violence_copy.json").then((data) => {
             // countrycolor: 'rgb(217, 65, 65)',
         },
     };
-    var config = {mapboxAccessToken: "API_KEY"};
-
     Plotly.newPlot("map", data1, layout, {showLink: false});
 
 });

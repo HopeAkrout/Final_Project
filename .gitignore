@@ -1,3 +1,5 @@
+#API_KEY
+config.js
 # more folders to ignore
 /.ipynb_checkpoints
 gun_violence_data_01_2013_03_2018.csv
