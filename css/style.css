@@ -10,6 +10,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+    font-family: Sans-serif;
   }
   
   /* charts style */
@@ -17,15 +18,31 @@ body {
     color: #dbd5c3;
     background-color: rgb(17, 17, 24);
     background-size: 100%  100%;
-    text-shadow: 2px 2px 2px #08070c2c;
     text-align: center;
-    font-family: Arial;
+    font-family: Sans-serif;
   }
+  .well {
+    color: rgb(17, 17, 24);
+    background-color: #ffffff;
+    background-size: 75%  75%;
+    font-family: Sans-serif;
+    }
 
+    .panel {
+      color: rgb(17, 17, 24);
+      background-color: #ffffff;
+      background-size: 75%  75%;
+      font-family: 'Sans-serif';
+      }
 .panel-body {
   color: #dbd5c3;
   background-color: rgb(17, 17, 24);
-  background-size: 50%  50%;
-  font-family: Arial;
+  background-size: 75%  75%;
+  font-family: Sans-serif;
   text-align: center;
+  }
+    /* charts style */
+  .state-data {
+    color: #000000;
+    font-family: Sans-serif;
   }
