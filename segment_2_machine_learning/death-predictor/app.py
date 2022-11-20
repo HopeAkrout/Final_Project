@@ -17,8 +17,8 @@ def predict():
     # Get the data from the POST request.
     if request.method == "POST":
         #data = request.get_json(force=True)
-        print(request.form['exp'])
-        data = float(request.form['exp'])
+        print(request.form['law'])
+        data = float(request.form['law'])
         print("Data", model.predict([[data]]))
         # Make prediction using model loaded from disk as per the data.
         prediction = model.predict([[data]])
