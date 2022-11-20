@@ -52,6 +52,8 @@ The project set out to discover whether or not laws enacted truly effected the r
 
 In contrast, mass shootings do not show a strong correlation between the number of laws or strength of those laws to the number of mass shooting incidents.  This indicates that mass shootings possibly require a different dataset entirely to tie together cause and effect.  Perhaps data on mental health, police response time, laws revolving around the cause of inaction such as due process, what is considered evidence to allow police to intervene, intent to incite, etc. would be more helpful in creating a correlation.
 
+![mass_shootings_vs_laws](https://user-images.githubusercontent.com/107223650/202931636-ecd846af-9574-45f7-b6f2-129236354b35.png)
+
 Gun violence is caused by many factors, only one of which is the laws inacted by individual states to create safer communities and block preventable situtations.  However, for the sake of this project, the focus was narrowed down to only look at state laws and not other outside factors.  Acknowledging that this topic is expontentially more complex, the data nonetheless clearly shows that laws are an important piece of the equation in preventing gun violence.
 
 ## Sources:
