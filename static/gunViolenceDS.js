@@ -28,7 +28,7 @@ function optionChanged(newYear) {
   buildMap(newYear);
 }
 
-// States Panel
+// Information Panel
 function buildMetadata(year) {
   d3.json("./new_merged_gun_data.json").then((data) => {
     var yearMetadata = data.yearMetadata;
@@ -38,8 +38,8 @@ function buildMetadata(year) {
       (sampleObj) => sampleObj.year == year
     );
     var result = resultArray[0];
-    // Use d3 to select the panel with id of `#state-data`
-    var PANEL = d3.select("#state-data");
+    // Use d3 to select the panel with id of `#year-data`
+    var PANEL = d3.select("#year-data");
 
     // Use `.html("") to clear any existing metadata
     PANEL.html("");
@@ -59,7 +59,7 @@ function buildMetadata(year) {
     PANEL.append("h4").text("The death rate was calculated by 100,000.")
   });
 }
-// Colored and Styled Bar Chart
+// Scatter Plot
 // Create the buildCharts function.
 function buildCharts(year) {
   d3.json("./new_merged_gun_data.json").then((data) => {
@@ -72,6 +72,7 @@ function buildCharts(year) {
     var popUp = resultArray.map((d) =>
     d.state + " Rank: " + d.law_rank);
 
+    // Create trace for scatter plot
     var trace1 = {
       x: rank,
       y: deaths,
@@ -88,6 +89,8 @@ function buildCharts(year) {
     };
 
     var scatterData = [trace1];
+
+    // Create the layout for the scatter plot
     var layout = {
       title: "Rate of Deaths VS Gun Law Safety",
       barmode: "group",
@@ -101,7 +104,7 @@ function buildCharts(year) {
       
     };
     var config = { locale: "fr" };
-    Plotly.newPlot("myDiv", scatterData, layout);
+    Plotly.newPlot("scatter", scatterData, layout);
   });
 }
 
@@ -113,19 +116,14 @@ function buildMap(year) {
     var resultArray = metadata.filter((sampleObj) => sampleObj.year == year);
 
     // Create Variables
-    console.log("data from merged data violence");
-    // var metadata = data.metadata;
     var massDeath = resultArray.map((d) => d.mass_death_percapita);
     var state = resultArray.map((d) => d.state);
     var stateAbv = state.map((s) => code[s]);
-    console.log(stateAbv);
-    
-    console.log(state)
     var popUp = resultArray.map(
       (d) => d.state);
-    console.log(massDeath);
     (citySize = massDeath), (hoverText = popUp);
 
+    // Create and populate map
     var data1 = [
       {
         type: "choropleth",
@@ -156,6 +154,7 @@ function buildMap(year) {
       },
     ];
 
+    // Create map layout
     var layout = {
       title: {
         text: "Mass Shooting Deaths Across The US",
@@ -178,7 +177,3 @@ function buildMap(year) {
     Plotly.newPlot("map", data1, layout, { showLink: false });
   });
 }
-
-// Use d3 to select the panel with id of `#sample-metadata`
-var PANEL = d3.select("#facts");
-
