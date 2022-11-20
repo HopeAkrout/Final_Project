@@ -16,4 +16,17 @@ Gun Law Provisions by Year & State file required little to no cleaning. This fil
 
 The Accidental Deaths 2018-2022 was merged with Gun Violence 2013-2018 to expand the violence timeline from 2013-2022.The number of deaths and injuires from the merged files were then joined with Gun Law Provision to account for each state's death toll in relation to the gun laws present. The Gun Data, Code book, OLS Regression Output - Gun Data file was then joined with Accidental Deaths & Gun Violence for the gauge and description panel on our dashboard
 
+Segment 3 (Katy)
+For my portion of this project, I used JavaScript, Bootstrap, CSS, HTML, Python, and Plotly to create a dashboard that visualized our data.
 
+I began by creating an HTML index that would display all of the data. I added a jumbotron, panel, charts, a map, table, and a select event. Once that  was written, I began to write the javascript for a bar chart, gauge, map, panel, and table. For this portion I utilized Plotly to display the data. After creating my JS file, I created a css style file to format the dashboard. I used the Json data format for this portion of the project as its key:value pair made it optimal for me to display the data. 
+
+I initially attempted to make the map using Leaflet, but discovered that Plotly had a bubble map that worked well for the data I wanted to display. 
+
+
+Sources:
+
+https://giffords.org/lawcenter/resources/scorecard/
+https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/state/totals/
+https://www.gunviolencearchive.org/past-tolls
+https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm
