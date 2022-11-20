@@ -1,0 +1,134 @@
+law_tag,Variable_Name,Average_deaths_per_capita,number_of_states_with_law,Category,Sub-Category,Brief_Description_of_Provision
+felony,felony,12.85,37,Prohibitions for high-risk gun possession,Felony,Firearm possession is prohibited for all people with a felony conviction
+age18longgunpossess,age18longgunpossess,9.92,12,Possession regulations,Age restrictions,No possession of long guns until age 18
+age18longgunsale,age18longgunsale,11.77,20,Buyer regulations,Age restrictions,Purchase of long guns from licensed dealers and private sellers restricted to age 18 and older
+age21handgunpossess,age21handgunpossess,5.95,8,Possession regulations,Age restrictions,No possession of handguns until age 21
+age21handgunsale,age21handgunsale,8.81,14,Buyer regulations,Age restrictions,Purchase of handguns from licensed dealers and private sellers restricted to age 21 and older
+age21longgunpossess,age21longgunpossess,3.4,1,Possession regulations,Age restrictions,No possession of long guns until age 21
+age21longgunsale,age21longgunsale,4.5,1,Buyer regulations,Age restrictions,Purchase of long guns from licensed dealers and private sellers restricted to age 21 and older
+age21longgunsaled,age21longgunsaled,4.5,1,Buyer regulations,Age restrictions,Purchase of long guns from licensed dealers restricted to age 21 and older
+alcoholism,alcoholism,16.08,6,Prohibitions for high-risk gun possession,Alcohol,Firearm possession is prohibited for some people with alcoholism
+alctreatment,alctreatment,8.7,6,Prohibitions for high-risk gun possession,Alcohol,Firearm possession is prohibited for some people with alcohol-related problems
+ammunition_18_yr,amm18,8.37,7,Ammunition regulations,Age restrictions,Purchase of any type of ammunition restricted to age 18 and older
+ammunition_21_yr,amm21h,8.05,8,Ammunition regulations,Age restrictions,Purchase of handgun ammunition restricted to age 21 and older
+ammunition_background,ammbackground,6.57,3,Ammunition regulations,Background checks,Background checks required for ammunition purchase
+ammunition_license,ammlicense,6.2,2,Ammunition regulations,Licensing,Vendor license required to sell ammunition
+ammunition_permit,ammpermit,6.56,3,Ammunition regulations,Permitting,Permit required to purchase ammunition
+ammunition_records,ammrecords,7.9,1,Ammunition regulations,Recordkeeping,Records of ammunition sales must be retained
+ammunition_restrict,ammrestrict,8.57,11,Ammunition regulations,Prohibitors,All of the state’s high-risk gun possession prohibitions also apply to ammunition possession
+assault_limit,assault,6.28,6,Assault weapons and large-capacity magazines,Assault weapons ban,Ban on sale of assault weapons beyond just assault pistols
+assault_ban_list,assaultlist,6.28,6,Assault weapons and large-capacity magazines,Assault weapons ban,Ban on sale of assault weapons which includes a list of banned weapons
+inherit_register,assaultregister,5.64,4,Assault weapons and large-capacity magazines,Assault weapons ban,Grandfathered weapons must be registered
+inherit_banned,assaulttransfer,7.2,4,Assault weapons and large-capacity magazines,Assault weapons ban,Transfer of grandfathered weapons is prohibited
+state_background_60d_retain,backgroundpurge,9.02,15,Background checks,Background check records,State can retain background check records for at least 60 days
+child_access_prevention_14,cap14,8.78,16,Child access prevention,Storage,Criminal liability for negligent storage applies to access by children less than 14 years old
+child_access_prevention_16,cap16,8.32,13,Child access prevention,Storage,Criminal liability for negligent storage applies to access by children less than 16 years old
+child_access_prevention_18,cap18,8.72,5,Child access prevention,Storage,Criminal liability for negligent storage applies to access by children less than 18 years old
+child_access_prevention_access,capaccess,7.56,7,Child access prevention,Storage,Criminal liability for negligent storage of guns if child gains access
+child_access_prevention_liability,capliability,7.7,4,Child access prevention,Storage,"Criminal liability for negligent storage of guns, regardless of whether child gains access"
+child_access_prevention_unloaded,capunloaded,6.6,3,Child access prevention,Storage,Criminal liability for negligent storage applies regardless of whether gun is loaded or unloaded
+child_access_prevention_uses,capuses,8.78,16,Child access prevention,Storage,Criminal liability for negligent storage of guns if child uses or carries the gun
+concealed_carry_background,ccbackground,12.79,39,Concealed carry permitting,Background checks,Concealed carry permit process requires a background check
+concealed_carry_backgroundnics,ccbackgroundnics,13.05,21,Concealed carry permitting,Background checks,Background check process for a concealed carry permit explicitly requires a check of the NICS database
+concealed_carry_renewbackground,ccrenewbackground,12.54,35,Concealed carry permitting,Background checks,Concealed carry permit renewal requires a new background check
+concealed_carry_revoke,ccrevoke,12.86,29,Concealed carry permitting,Permitting,Authorities are required to revoke concealed carry permits under certain circumstances
+college_campas_ban,college,13.1,18,Possession regulations,Campus carry,No gun carrying allowed on college campuses except for concealed weapon permittees
+college_campas_ban_concealed,collegeconcealed,11.9,12,Possession regulations,Campus carry,"No gun carrying on college campuses, including concealed weapons permittees"
+danger,danger,11.29,27,Prohibitions for high-risk gun possession,Mental Health,Firearm possession is prohibited if person is deemed by court to be a danger to oneself or others
+dealer,dealer,6.63,7,Dealer regulations,Licensing,State dealer license required for sale of all firearms
+danger_handgun,dealerh,8.86,14,Dealer regulations,Licensing,State dealer license required for sale of handguns
+dealer_registration,defactoreg,5.27,3,Buyer regulations,Registration,De facto registration of firearms is in place because of a recordkeeping requirement for all gun sales
+dealer_registration_handguns,defactoregh,7.88,9,Buyer regulations,Registration,De facto registration of handguns is in place because of a recordkeeping requirement for all handgun sales
+drugmisdemeanor,drugmisdemeanor,8.79,10,Prohibitions for high-risk gun possession,Drugs,Firearm possession is prohibited for people with a drug misdemeanor conviction
+domestic_violence_purchase_ban,dvro,11.18,26,Domestic violence,Restraining order,State law automatically prohibits domestic violence-related restraining order (DVRO) subjects from possessing firearms
+domestic_violence_dating,dvrodating,9.86,16,Domestic violence,Restraining order,DVROs are automatically prohibiting if the subject is a dating partner of the petitioner
+domestic_violence_removal,dvroremoval,6.3,3,Domestic violence,Restraining order,Law enforcement officials are required to remove firearms from people subject to a domestic violence-related restraining order
+domestic_violence_surrender,dvrosurrender,9.33,15,Domestic violence,Restraining order,State law requires DVRO subjects to surrender their firearms
+domestic_violence_surrenderdating,dvrosurrenderdating,8.22,11,Domestic violence,Restraining order,The surrender provisions apply if the subject is a dating partner of the petitioner
+domestic_violence_surrendernoconditions,dvrosurrendernoconditions,9.37,13,Domestic violence,Restraining order,No additional finding is required before the firearm surrender provisions apply
+elementary_school_campas_ban,elementary,12.71,33,Possession regulations,School zones,"No gun carrying on elementary school property, including concealed weapons permittees"
+domestic_violence_exparte_,exparte,8.88,10,Domestic violence,Restraining order,Ex parte (temporary) DVRO subjects are automatically prohibited from possessing firearms
+domestic_violence_exparte_dating,expartedating,8.87,9,Domestic violence,Restraining order,Ex parte DVROs are prohibiting if the petitioner is a dating partner of the DVRO subject
+domestic_violence_exparte_surrender,expartesurrender,7.4,8,Domestic violence,Restraining order,State law requires ex parte DVRO subjects to surrender their firearms
+domestic_violence_exparte_surrenderdating,expartesurrenderdating,7.17,7,Domestic violence,Restraining order,The ex parte DVRO surrender provisions apply if the subject is a dating partner of the petitioner
+domestic_violence_exparte_surrendernoconditions,expartesurrendernoconditions,7.17,7,Domestic violence,Restraining order,No additional finding is required before the ex parte DVRO firearm surrender provisions apply
+fingerprint,fingerprint,7.91,9,Buyer regulations,Fingerprinting,Buyers must be fingerprinted at point of purchase
+gunshow,gunshow,8.77,9,Background checks,Gun shows,Background checks required for all gun show firearm sales at point of purchase
+gunshow_handgun,gunshowh,9.34,11,Background checks,Gun shows,Background checks required for gun show handgun sales at point of purchase
+gun_violence_restraining_order,gvro,8.45,2,Possession regulations,Gun violence restraining orders,Family members or law enforcement officers can confiscate firearms from any person who is deemed by a judge to represent a threat to themselves or others
+gun_violence_restraining_order_lawenforcement,gvrolawenforcement,9.12,4,Possession regulations,Gun violence restraining orders,Law enforcement officers can confiscate firearms from any person who is deemed by a judge to represent a threat to themselves or others
+no_blanket_immunity,immunity,9.05,17,Immunity,Immunity,No law provides blanket immunity to gun manufacturers or prohibits state or local lawsuits against gun manufacturers
+domestic_violence_incident_scene,incidentall,8.95,13,Domestic violence,Firearm removal,All firearms must be removed from the scene of a domestic violence incident
+inspection,inspection,3.75,2,Dealer regulations,Inspections,Mandatory police inspections of dealers
+involuntary_commitment,invcommitment,11.23,28,Prohibitions for high-risk gun possession,Mental Health,Firearm possession is prohibited for people who have been involuntarily committed to an inpatient facility
+involuntary_outpatient,invoutpatient,10.01,16,Prohibitions for high-risk gun possession,Mental Health,Firearm possession is prohibited for people who have been involuntarily committed to an outpatient facility
+junkgun_ban,junkgun,7.83,6,Dealer regulations,Junk guns,"Ban on junk guns (sometimes called ""Saturday night specials"")"
+dealer_liability,liability,8.3,2,Dealer regulations,Liability,Dealers are liable for damages resulting from illegal gun sales
+lockd,lockd,7.78,10,Child access prevention,Safety locks,Safety lock required for handguns sold through licensed dealers
+locked,locked,3.4,1,Child access prevention,Storage,All firearms in a household must be stored securely (locked away) at all times
+lockp,lockp,5.35,4,Child access prevention,Safety locks,Safety lock required for handguns sold through all dealers
+lockstandards,lockstandards,5.23,3,Child access prevention,Safety locks,Safety lock is required for handguns and must be approved by state standards
+loststolen,loststolen,7.2,8,Buyer regulations,Theft reporting,Mandatory reporting of lost and stolen guns by firearm owners
+magazine,magazine,7.43,7,Assault weapons and large-capacity magazines,Large capacity magazine ban,Ban on sale large capacity magazines beyond just ammunition for pistols
+magazine_preowned,magazinepreowned,4.95,2,Assault weapons and large-capacity magazines,Large capacity magazine ban,Possession of pre-owned large capacity magazines is prohibited
+mayissue,mayissue,6.37,9,Concealed carry permitting,Permitting,"""May issue"" state"
+misdemeanor_,mcdv,11.38,27,Domestic violence,Misdemeanor crimes,"People convicted of a misdemeanor crime of domestic violence against a spouse, ex-spouse, or cohabitating partner are prohibited from possessing firearms"
+misdemeanor_dating,mcdvdating,9.17,16,Domestic violence,Misdemeanor crimes,All people convicted of a misdemeanor crime of domestic violence are prohibited from possessing firearms
+misdemeanor_removalallowed,mcdvremovalallowed,7.03,3,Domestic violence,Misdemeanor crimes,State law allows law enforcement to remove firearms from MCDV offenders
+misdemeanor_removalrequired,mcdvremovalrequired,7.6,1,Domestic violence,Misdemeanor crimes,State law requires law enforcement officers to remove firearms from MCDV offenders
+misdemeanor_surrender,mcdvsurrender,8.79,11,Domestic violence,Misdemeanor crimes,"People convicted of a misdemeanor crime of domestic violence against a spouse, ex-spouse, or cohabitating partner are required to surrender their firearms"
+misdemeanor_surrenderdating,mcdvsurrenderdating,6.3,7,Domestic violence,Misdemeanor crimes,The surrender provisions apply if the defendant is a dating partner of the victim
+misdemeanor_surrendernoconditions,mcdvsurrendernoconditions,8.42,9,Domestic violence,Misdemeanor crimes,"People convicted of a misdemeanor crime of domestic violence against a spouse, ex-spouse, or cohabitating partner are required to surrender their firearms with no exceptions"
+mentalhealth,mentalhealth,8.43,9,Background checks,Background checks - mental health records,Required background checks include an explicit requirement for search of state mental health records
+microstamp,microstamp,7.9,1,Gun trafficking,Crime gun identification,All handguns sold must have either ballistic fingerprinting or microstamping so that they can be identified if used in a crime
+no_stand_your_ground,nosyg,10.22,26,Stand your ground,Stand your ground,No stand your ground law
+onefeature,onefeature,5.63,3,Assault weapons and large-capacity magazines,Assault weapons ban,Ban on sale of assault weapons using a one-feature definition
+one_purchase_per_month,onepermonth,8.43,3,Buyer regulations,Bulk purchase limit,Buyers can purchase no more than one handgun per month with no or limited exceptions
+open_carry_handgun,opencarryh,11.57,3,Possession regulations,Open carry,No open carry of handguns is allowed in public places
+open_carry_long_gun,opencarryl,8.02,5,Possession regulations,Open carry,No open carry of long guns is allowed in public places
+open_carry_permit_handgun,opencarrypermith,10.5,19,Possession regulations,Open carry,No open carry of handguns is allowed in public places unless the person has a concealed carry or handgun carry permit
+open_carry_permit_long_gun,opencarrypermitl,9.24,9,Possession regulations,Open carry,No open carry of long guns is allowed in public places unless the person has a permit
+permit,permit,5.96,7,Buyer regulations,Permitting,A license or permit is required to purchase all firearms
+permit_concealed,permitconcealed,12.49,41,Concealed carry permitting,Permitting,Permit required to carry concealed weapons
+permit_handgun,permith,7.61,13,Buyer regulations,Permitting,A license or permit is required to purchase handguns
+permit_law,permitlaw,7.59,12,Buyer regulations,Permitting,Permit process involves law enforcement
+personalized,personalized,8.7,2,Gun trafficking,Personalized gun technology,State has a law that requires review of personalized gun technology
+state_does_not_preempt_local_law,preemption,4.48,5,Preemption,Preemption,State law does not preempt local regulation of firearms in any way
+state_does_not_preempt_local_law_broad,preemptionbroad,7.39,8,Preemption,Preemption,State law does not completely preempt local regulation of firearms
+state_does_not_preempt_local_law_narrow,preemptionnarrow,5.63,7,Preemption,Preemption,"Any state law that preempts local regulation of firearms is narrow in its scope (i.e., in one area of regulation)"
+dealer_background_60d_retain,purge,7.54,10,Dealer regulations,Reporting,Dealers can retain sales records for at least 60 days after firearm purchase
+seller_retain_records_all_sales,recordsall,8.53,6,Dealer regulations,Recordkeeping,All private sellers and licensed dealers are required to keep and retain records of all firearm sales
+seller_retain_records_all_sales_handguns,recordsallh,9.27,13,Dealer regulations,Recordkeeping,All private sellers and licensed dealers are required to keep and retain records of handgun sales
+dealer_retain_records_all_sales_firearms,recordsdealer,9.48,11,Dealer regulations,Recordkeeping,Licensed dealers are required to keep and retain records of all firearm sales
+dealer_retain_records_all_sales_handgun,recordsdealerh,9.83,19,Dealer regulations,Recordkeeping,Licensed dealers are required to keep and retain records of handgun sales
+registration,registration,4.5,1,Buyer regulations,Registration,Gun owners must register their firearms with the state
+registration_handgun,registrationh,7.06,3,Buyer regulations,Registration,Gun owners must register their handguns with the state
+relinquishment,relinquishment,6.76,6,Prohibitions for high-risk gun possession,Relinquishment of weapons,People are required to relinquish their firearms after they become prohibited from possessing them
+report_all_sales,reportall,6.46,5,Dealer regulations,Reporting,All private sellers and licensed dealers are required to report all firearm sales records to the state
+report_all_sales_handguns,reportallh,8.3,10,Dealer regulations,Reporting,All private sellers and licensed dealers are required to report handgun sales records to the state
+report_all_sales_dealer,reportdealer,8.77,7,Dealer regulations,Reporting,Licensed dealers are required to report all firearm sales records to the state
+report_all_sales_dealer_handgun,reportdealerh,8.71,12,Dealer regulations,Reporting,Licensed dealers are required to report handgun sales records to the state
+residential_dealer_ban,residential,3.4,1,Dealer regulations,Location,Ban on non-commercial dealers
+security,security,7.82,8,Dealer regulations,Security,State requires at least one store security precaution for firearm dealers
+heightened_showing,showing,7.04,7,Concealed carry permitting,Permitting,Applicants are required to make a heightened showing to obtain a concealed carry permit
+stalking,stalking,9.47,16,Domestic violence,Stalking,A stalking conviction is prohibitive for firearm possession
+state_background_check,statechecks,7.69,10,Background checks,Background checks - state records,"State conducts separate background checks, beyond the federal NICS check, for all firearms"
+state_background_check_handgun,statechecksh,9.07,16,Background checks,Background checks - state records,"State conducts separate background checks, beyond the federal NICS check, for handguns"
+no_third_party_puchase,strawpurchase,5.65,2,Gun trafficking,Straw purchase,No person may purchase a firearm on behalf of another person
+no_third_party_puchase_handgun,strawpurchaseh,8.8,4,Gun trafficking,Straw purchase,No person may purchase a handgun on behalf of another person
+no_magazine_over_10_rounds,tenroundlimit,6.44,5,Assault weapons and large-capacity magazines,Large capacity magazine ban,No magazines with a capacity of more than 10 rounds of ammunition may be sold
+firearm_theft_reporting,theft,5.65,2,Dealer regulations,Theft reporting,Mandatory reporting of stolen guns by all firearm dealers
+threedaylimit,threedaylimit,8.92,10,Background checks,Background checks time limit,Background checks for gun sales or permits have more than a three day period in which they can be completed
+gun_trafficking_background,traffickingbackground,5.65,2,Gun trafficking,Gun trafficking,No person may purchase a firearm with the intent to re-sell without the buyer going through a background check or having already gone through a background check
+gun_trafficking_prohibited,traffickingprohibited,9.79,13,Gun trafficking,Gun trafficking,No person may purchase a firearm with the intent to re-sell to a person who is prohibited from buying or possessing a firearm
+gun_trafficking_prohibitedh,traffickingprohibitedh,10.09,15,Gun trafficking,Gun trafficking,No person may purchase a handgun with the intent to re-sell to a person who is prohibited from buying or possessing a firearm
+training_required,training,6.07,6,Buyer regulations,Safety training,Safety training or testing required prior to issuing a firearm license or permit
+universal_background,universal,8.4,8,Background checks,Universal background checks,Universal background checks required at point of purchase for all firearms
+universal_background_handgun,universalh,9.11,10,Background checks,Universal background checks,Universal background check required at point of purchase for handguns
+universal_background_permit,universalpermit,7.69,12,Background checks,Background checks through permits,Background checks conducted through permit requirement for all firearm sales (or universal background checks)
+universal_background_permit_handgun,universalpermith,8.92,18,Background checks,Background checks through permits,Background checks conducted through permit requirement for all handgun sales (or universal background checks)
+violent_misdemeanor,violent,7.22,4,Prohibitions for high-risk gun possession,Violent Misdemeanor,Firearm possession is prohibited for people who have committed a violent misdemeanor punishable by less than one year of imprisonment
+violent_misdemeanor_handgun,violenth,7.22,4,Prohibitions for high-risk gun possession,Violent Misdemeanor,Handgun possession is prohibited for people who have committed a violent misdemeanor punishable by less than one year of imprisonment
+violent_misdemeanor_partial,violentpartial,9.23,16,Prohibitions for high-risk gun possession,Violent Misdemeanor,Firearm possession is prohibited for people who have committed a violent misdemeanor punishable by more than one year of imprisonment
+waiting_period_required,waiting,7.05,4,Buyer regulations,Waiting period,Waiting period is required on all firearm purchases from dealers
+waiting_period_required_handguns,waitingh,8.15,8,Buyer regulations,Waiting period,Waiting period is required on all handgun purchases from dealers
