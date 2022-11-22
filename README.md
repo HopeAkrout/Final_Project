@@ -57,7 +57,7 @@ In contrast, mass shootings do not show a strong correlation between the number 
 
 ![mass_shootings_vs_laws](https://user-images.githubusercontent.com/107223650/202931636-ecd846af-9574-45f7-b6f2-129236354b35.png)
 
-Gun violence is caused by many factors, only one of which is the laws enacted by individual states to create safer communities and lowering preventable situations. However, for the sake of this project, the focus was narrowed down to only look at state laws and not other outside factors. Acknowledging that this topic is exponentially more complex, the data nonetheless clearly shows that laws are an important piece of the equation in preventing gun violence.
+Gun violence is caused by many factors, only one of which is the laws enacted by individual states to create safer communities and lowering preventable incidents. However, for the sake of this project, the focus was narrowed down to only look at state laws and not other outside factors. Acknowledging that this topic is exponentially more complex, the data nonetheless clearly shows that laws are an important piece of the equation in preventing gun violence.
 
 ## Sources:
 
