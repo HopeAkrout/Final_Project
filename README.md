@@ -62,7 +62,11 @@ Gun violence is caused by many factors, only one of which is the laws enacted by
 ## Sources:
 
 https://giffords.org/lawcenter/resources/scorecard/
+
 https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/state/totals/
+
 https://www.gunviolencearchive.org/past-tolls
+
 https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm
+
 https://statefirearmlaws.org
